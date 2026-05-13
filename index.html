@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sporturi Populare</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 40px;
+        }
+        .sport-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .sport {
+            width: 45%;
+            max-width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 40px;
+            transition: transform 0.3s;
+        }
+        .sport:hover {
+            transform: translateY(-10px);
+        }
+        .sport img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bine ați venit pe pagina noastră despre Sporturi Populare!</h1>
+</header>
+
+<nav>
+    <a href="index.html">Acasă</a>
+    <a href="fotbal.html">Fotbal</a>
+    <a href="tenis.html">Tenis</a>
+    <a href="baschet.html">Baschet</a>
+    <a href="volei.html">Volei</a>
+</nav>
+
+<section>
+    <h2>Sporturi Practicate la Nivel Mondial</h2>
+    <div class="sport-container">
+        <!-- Fotbal -->
+        <div class="sport">
+            <img src="https://st2.depositphotos.com/1353074/11229/i/450/depositphotos_112291314-stock-photo-football-cup-with-football-ball.jpg".jpg" alt="Fotbal">
+            <h3>Fotbal</h3>
+            <a href="fotbal.html">Află mai multe</a>
+        </div>
+
+        <!-- Tenis -->
+        <div class="sport">
+            <img src="https://img.pixers.pics/pho_wat(s3:700/FO/54/00/77/08/700_FO54007708_8628c18979a91884e8793b57721769ea.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/vinilos-raqueta-de-tenis-con-la-bola.jpg.jpg.jpg" alt="Tenis">
+            <h3>Tenis</h3>
+            <a href="tenis.html">Află mai multe</a>
+        </div>
+
+        <!-- Baschet -->
+        <div class="sport">
+            <img src="https://cdn.pixabay.com/photo/2021/11/02/19/32/basketball-6763978_1280.jpg" alt="Baschet">
+            <h3>Baschet</h3>
+            <a href="baschet.html">Află mai multe</a>
+        </div>
+
+        <!-- Volei -->
+        <div class="sport">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD1pGRogPUqKr98z-4F-b3bAqwjKRQZgOITEf44NRZ4zbrDW8OjJfj62sO1GwN20oiex4&usqp=CAU.jpg" alt="Volei">
+            <h3>Volei</h3>
+            <a href="volei.html">Află mai multe</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Sporturi Populare. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
